@@ -379,9 +379,9 @@ export default function Properties() {
   const siteplan = {
     id: "siteplan-1",
     image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755580136/siteplane_serenity_pwt_nwu8tl.png",
-    name: "Siteplan Sapphire Serenity Purwokerto",
+    name: "Siteplan Sapphire Sapphire Serenity Karangklesem",
     description:
-      "Masterplan perumahan Sapphire Serenity Purwokerto yang menampilkan layout, jalan, ruang terbuka hijau, dan fasilitas umum.",
+      "Masterplan perumahan Sapphire Sapphire Serenity Karangklesem yang menampilkan layout, jalan, ruang terbuka hijau, dan fasilitas umum.",
   }
 
   const specifications = {
@@ -406,7 +406,7 @@ export default function Properties() {
 
   const location = {
     embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2869.1898908672124!2d109.2424474!3d-7.456148400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655d9621bb8953%3A0xb4898b3a99b84494!2sSapphire%20Serenity%20Karangklesem!5e1!3m2!1sid!2sid!4v1761722886139!5m2!1sid!2sid" width="120%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
-    name: "Denah Lokasi Sapphire Serenity Purwokerto",
+    name: "Denah Lokasi Sapphire Sapphire Serenity Karangklesem",
     description: "Lokasi strategis di pusat kota Purwokerto dengan akses mudah ke berbagai fasilitas umum.",
   }
 
@@ -583,7 +583,7 @@ export default function Properties() {
       <div className="container">
         <h2 className="section-title">Siteplan & Tipe Rumah</h2>
         <p className="section-subtitle">
-          Temukan rumah impian Anda di Sapphire Serenity Purwokerto. Kami menawarkan berbagai tipe rumah yang dirancang untuk
+          Temukan rumah impian Anda di Sapphire Sapphire Serenity Karangklesem. Kami menawarkan berbagai tipe rumah yang dirancang untuk
           memenuhi kebutuhan dan gaya hidup Anda.
         </p>
 

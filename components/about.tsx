@@ -28,7 +28,7 @@ export default function About() {
             <div className="about-image-container">
               <Image
                 src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_600,h_450,c_fill,f_auto,q_auto/v1761071337/type_90_qpwdco.avif"
-                alt="Sapphire Serenity Purwokerto"
+                alt="Sapphire Sapphire Serenity Karangklesem"
                 width={300}
                 height={450}
                 className="about-image"
@@ -67,7 +67,7 @@ export default function About() {
 
             {/* Statistik - Awards */}
             <div className="about-stat-card">
-              <div className="about-stat-value">10000+</div>
+              <div className="about-stat-value">500+</div>
               <div className="about-stat-label">Keluarga Sapphire</div>
             </div>
 
@@ -98,7 +98,7 @@ export default function About() {
               <div className="modal-image">
                 <Image
                   src="https://res.cloudinary.com/dqobwse9q/image/upload/v1755579076/Serenity_new_3_hfun13.jpg"
-                  alt="Sapphire Serenity Purwokerto"
+                  alt="Sapphire Sapphire Serenity Karangklesem"
                   width={700}
                   height={400}
                   style={{ objectFit: 'cover', width: '100%', height: 'auto' }}
