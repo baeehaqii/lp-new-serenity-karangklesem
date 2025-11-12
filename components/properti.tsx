@@ -2,6 +2,10 @@
 
 import type React from "react"
 
+const nomorWhatsApp = "6281127010001";
+const pesan = "Halo, saya tertarik dengan properti Sapphire Serenity Purwokerto";
+const linkWhatsApp= `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesan)}`;
+
 import Image from "next/image"
 import Link from "next/link"
 import { useState, useMemo } from "react"
@@ -927,13 +931,15 @@ export default function Properties() {
                     <div className="modal-price">Rp {selectedProperty.price}</div>*/}
 
                     <div className="modal-cta">
-                      <Link
-                        href="https://wa.me/6281127010001?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Serenity%20Purwokerto"
-                        className="modal-cta-button"
-                      >
-                        Hubungi Kami
-                      </Link>
-                    </div>
+                    <Link
+                      href={linkWhatsApp}
+                      className="modal-cta-button"
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      Hubungi Kami
+                    </Link>
+                  </div>
                   </div>
                 </>
               ) : (
