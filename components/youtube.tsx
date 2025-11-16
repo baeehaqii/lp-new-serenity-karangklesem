@@ -1,10 +1,8 @@
 "use client"
 
 import Link from "next/link"
-import { useState } from "react"
 
 export default function YouTube() {
-    const [isVideoLoaded, setIsVideoLoaded] = useState(false)
 
     return (
         <section className="youtube-section">
@@ -30,38 +28,19 @@ export default function YouTube() {
                         </Link>
                     </div>
 
-                    {/* Kolom Kanan - Video Embed dengan Lazy Loading */}
+                    {/* Kolom Kanan - Video Embed */}
                     <div className="youtube-video-wrapper">
-                        {!isVideoLoaded ? (
-                            <button
-                                onClick={() => setIsVideoLoaded(true)}
-                                className="youtube-thumbnail"
-                                aria-label="Play video"
-                            >
-                                <img
-                                    src="https://img.youtube.com/vi/TVDndFFiC54/sddefault.jpg"
-                                    alt="Video thumbnail"
-                                    className="thumbnail-image"
-                                />
-                                <div className="play-button">
-                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
-                                        <path d="M8 5v14l11-7z" />
-                                    </svg>
-                                </div>
-                            </button>
-                        ) : (
-                            <iframe
-                                width="100%"
-                                height="400"
-                                src="https://www.youtube.com/embed/TVDndFFiC54?si=-zu4-JrJj6PP-oeu&autoplay=1"
-                                title="Sapphire Serenity Slawi"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                                className="youtube-video"
-                                loading="lazy"
-                            ></iframe>
-                        )}
+                        <iframe
+                            width="100%"
+                            height="400"
+                            src="https://www.youtube.com/embed/TVDndFFiC54?si=-zu4-JrJj6PP-oeu&autoplay=1"
+                            title="Sapphire Serenity Slawi"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            className="youtube-video"
+                            loading="lazy"
+                        ></iframe>
                     </div>
                 </div>
             </div>
