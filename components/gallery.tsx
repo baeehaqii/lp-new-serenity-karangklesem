@@ -15,12 +15,12 @@ export default function Gallery() {
   // Data gambar-gambar yang ada di gallery
   const galleryImages = [
     {
-      src: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755579078/Serenity_new_5_uv4y4r.jpg",
+      src: "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1755579078/Serenity_new_5_uv4y4r.jpg",
       alt: "Modern luxury home exterior",
       type: "image",
     },
     {
-      src: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755579069/Serenity_new_Gerbang_zo5qgb.jpg",
+      src: "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1755579069/Serenity_new_Gerbang_zo5qgb.jpg",
       alt: "Modern luxury home pool",
       type: "image",
     },

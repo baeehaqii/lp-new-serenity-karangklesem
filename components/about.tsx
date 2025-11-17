@@ -97,7 +97,7 @@ export default function About() {
               <h2 className="modal-title">Sapphire Serenity Karangklesem</h2>
               <div className="modal-image">
                 <Image
-                  src="https://res.cloudinary.com/dqobwse9q/image/upload/v1755579076/Serenity_new_3_hfun13.jpg"
+                  src="https://res.cloudinary.com/dqobwse9q/image/upload/w_700,h_400,c_fill,f_auto,q_auto:eco/v1755579076/Serenity_new_3_hfun13.jpg"
                   alt="Sapphire Sapphire Serenity Karangklesem"
                   width={700}
                   height={400}

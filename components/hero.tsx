@@ -17,18 +17,18 @@ export default function Hero() {
 
   const heroSlides = [
     {
-      image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755579069/Serenity_new_Gerbang_zo5qgb.jpg",
+      image: "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1755579069/Serenity_new_Gerbang_zo5qgb.jpg",
       title: "Hunian Modern, Fleksibel, dan Penuh Peluang",
       description:
         "Mezzanine house estetik di jantung Purwokerto.",
     },
     {
-      image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755579078/Serenity_new_5_uv4y4r.jpg",
+      image: "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1755579078/Serenity_new_5_uv4y4r.jpg",
       title: "Prime Location, Prime Opportunity",
       description: "Terletak di Segitiga Emas Purwokerto.",
     },
     {
-      image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755579076/Serenity_new_3_hfun13.jpg",
+      image: "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1755579076/Serenity_new_3_hfun13.jpg",
       title: "Peluang Investasi Maksimal",
       description: "Potensi capital gain terus meningkat setiap tahun.",
     },
