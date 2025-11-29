@@ -27,7 +27,8 @@ export default function About() {
             {/* Container gambar */}
             <div className="about-image-container">
               <Image
-                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_600,h_450,c_fill,f_auto,q_auto/v1761071337/type_90_qpwdco.avif"
+                //src="https://res.cloudinary.com/dqobwse9q/image/upload/w_700,h_400,c_fill,f_auto,q_auto:eco/v1755579069/Serenity_new_Gerbang_zo5qgb.jpg"
+                src="https://res.cloudinary.com/dqobwse9q/image/upload/w_700,h_400,c_fill,f_auto,q_auto:eco/v1755579069/Serenity_new_1_ehhxsm.png"
                 alt="Sapphire Sapphire Serenity Karangklesem"
                 width={300}
                 height={450}
@@ -61,20 +62,20 @@ export default function About() {
           <div className="about-stats-grid">
             {/* Statistik - Projects Completed */}
             <div className="about-stat-card">
-              <div className="about-stat-value">1</div>
-              <div className="about-stat-label">Perumahan Terbaik di Purwokerto</div>
+              <div className="about-stat-value">9</div>
+              <div className="about-stat-label">Lokasi Terbaik di Jawa Bagian Selatan</div>
             </div>
 
             {/* Statistik - Awards */}
             <div className="about-stat-card">
-              <div className="about-stat-value">500+</div>
+              <div className="about-stat-value">10.000+</div>
               <div className="about-stat-label">Keluarga Sapphire</div>
             </div>
 
             {/* Statistik - Satisfied Clients */}
             <div className="about-stat-card">
-              <div className="about-stat-value">5+</div>
-              <div className="about-stat-label">CCTV Kawasan</div>
+              <div className="about-stat-value">9</div>
+              <div className="about-stat-label">Proyek Unggulan</div>
             </div>
 
             {/* Statistik - Years of Experience */}
@@ -97,7 +98,9 @@ export default function About() {
               <h2 className="modal-title">Sapphire Serenity Karangklesem</h2>
               <div className="modal-image">
                 <Image
-                  src="https://res.cloudinary.com/dqobwse9q/image/upload/w_700,h_400,c_fill,f_auto,q_auto:eco/v1755579076/Serenity_new_3_hfun13.jpg"
+                  //src="https://res.cloudinary.com/dqobwse9q/image/upload/w_700,h_400,c_fill,f_auto,q_auto:eco/v1755579076/Serenity_new_3_hfun13.jpg"
+                  //src="https://res.cloudinary.com/dqobwse9q/image/upload/w_700,h_400,c_fill,f_auto,q_auto:eco/v1755579069/Serenity_new_1_ehhxsm.png"
+                  src="https://res.cloudinary.com/dqobwse9q/image/upload/w_700,h_400,c_fill,f_auto,q_auto:eco/v1755579069/Serenity_new_Gerbang_zo5qgb.jpg"
                   alt="Sapphire Sapphire Serenity Karangklesem"
                   width={700}
                   height={400}
