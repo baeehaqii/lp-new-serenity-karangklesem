@@ -18,13 +18,13 @@ export default function Testimonials() {
         {
             id: 1,
             name: "Alfalaqi",
-            image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755435663/Screenshot_2025-08-17_at_20-00-42_Sapphire_Griya_Modern_Official_Perumahan_Tegal_Slawi_Brebes_sapphiregriyamodern_Instagram_photos_and_videos_ybu2pd.png",
+            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764488271/gambar-3_imbunn.avif",
             text: "Lokasinya strategis tapi tetap tenang. Desain rumahnya modern dan bikin betah. Dari pusat kota deket pol.",
         },
         {
             id: 2,
             name: "Greeenid",
-            image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755435664/Screenshot_2025-08-17_at_19-59-13_Sapphire_Griya_Modern_Official_Perumahan_Tegal_Slawi_Brebes_sapphiregriyamodern_Instagram_photos_and_videos_t4hycn.png",
+            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764488270/gambar-9_qryd1j.avif",
             text: "Perumahan dengan gaya hunian mezzanine di Purwokerto. Lokasinya super-strategis. Terbaikkk!",
         },
         
