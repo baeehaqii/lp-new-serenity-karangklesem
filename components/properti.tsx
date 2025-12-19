@@ -4,13 +4,14 @@ import type React from "react"
 
 const nomorWhatsApp = "6281127010001";
 const pesan = "Halo, saya tertarik dengan properti Sapphire Serenity Purwokerto";
-const linkWhatsApp= `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesan)}`;
+const linkWhatsApp = `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesan)}`;
 
 import Image from "next/image"
 import Link from "next/link"
 import { useState, useMemo } from "react"
 import { BedDoubleIcon, BathIcon, LandPlotIcon, BadgeCheckIcon, XIcon, ZoomInIcon, ZoomOutIcon } from "./icons"
 import { ChevronLeft, ChevronRight } from "lucide-react"
+import { trackContactEvent, trackPropertyDetailView } from "@/lib/pixel"
 
 function formatIDR(value: number) {
   return value.toLocaleString('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 })
@@ -394,14 +395,14 @@ export default function Properties() {
     lantai: "Granit tile 60×60",
     atap: "Rangka baja ringan, genteng metal",
     kamarMandi: "Closet American Standard / Setara",
-    septicTank :"Bio Septic Tank, Buis beton 80cm",
+    septicTank: "Bio Septic Tank, Buis beton 80cm",
     kusenPintu: "Kayu/Aluminium & Pintu Fabrikasi",
     jendela: "kaca",
     plafon: "Rangka hollow, gypsum, list gypsum",
     air: "PDAM",
-    carport:"Keramik",
+    carport: "Keramik",
     listrik: "1300 watt",
-    mejaDapur:"Granite tile 60×60",
+    mejaDapur: "Granite tile 60×60",
     elektrikal: "Nero",
     lampu: "Model Downlight Warmwhite",
     // mezanin: "double hollow, lantai SPC (type 55)",
@@ -519,6 +520,8 @@ export default function Properties() {
     setSelectedProperty(property)
     setIsModalOpen(true)
     setModalTab('detail')
+    // Track property detail view
+    trackPropertyDetailView(property.name)
     // Keep KPR simulator empty for user input
   }
 
@@ -931,15 +934,17 @@ export default function Properties() {
                     <div className="modal-price">Rp {selectedProperty.price}</div>*/}
 
                     <div className="modal-cta">
-                    <Link
-                      href={linkWhatsApp}
-                      className="modal-cta-button"
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                    >
-                      Hubungi Kami
-                    </Link>
-                  </div>
+                      <Link
+                        href={linkWhatsApp}
+                        className="modal-cta-button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() => trackContactEvent()}
+                        title="Hubungi kami melalui WhatsApp untuk informasi lebih detail tentang properti ini"
+                      >
+                        Hubungi Kami
+                      </Link>
+                    </div>
                   </div>
                 </>
               ) : (
