@@ -3,7 +3,7 @@
 import type React from "react"
 
 const nomorWhatsApp = "6281127010001";
-const pesan = "Halo, saya tertarik dengan properti Sapphire Serenity Purwokerto";
+const pesan = "Halo kak, saya dapat informasi dari Facebook, boleh minta tolong informasi selengkapnya tentang perumahan Sapphire Serenity Karangklesem";
 const linkWhatsApp = `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesan)}`;
 
 import Image from "next/image"

@@ -6,7 +6,7 @@ import { trackWhatsAppFloatingClick } from "@/lib/pixel"
 export default function WhatsAppFloat() {
   const handleClick = () => {
     const nomorWhatsApp = "6281127010001";
-    const pesan = "Halo, saya tertarik dengan properti Sapphire Serenity Purwokerto";
+    const pesan = "Halo kak, saya dapat informasi dari Facebook, boleh minta tolong informasi selengkapnya tentang perumahan Sapphire Serenity Karangklesem";
 
     // Track the click event to Meta Pixel
     trackWhatsAppFloatingClick()
