@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   title: "Sapphire Serenity Karangklesem",
   description: "Temukan properti impian Anda bersama Sapphire Serenity Karangklesem",
   icons: {
-    icon: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761065068/Logo_pogacr.jpg",
-    shortcut: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761065068/Logo_pogacr.jpg",
-    apple: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761065068/Logo_pogacr.jpg",
+    icon: "/icon/icon.avif",
+    shortcut: "/icon/icon.avif",
+    apple: "/icon/icon.avif",
   },
   keywords: [
     "Sapphire Serenity Karangklesem",

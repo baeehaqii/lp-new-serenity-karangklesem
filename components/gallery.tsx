@@ -15,12 +15,12 @@ export default function Gallery() {
   // Data gambar-gambar yang ada di gallery
   const galleryImages = [
     {
-      src: "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1755579078/Serenity_new_5_uv4y4r.jpg",
+      src: "/gallery/gallery.avif",
       alt: "Modern luxury home exterior",
       type: "image",
     },
     {
-      src: "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1755579069/Serenity_new_Gerbang_zo5qgb.jpg",
+      src: "/hero/hero1.avif",
       alt: "Modern luxury home pool",
       type: "image",
     },
@@ -28,13 +28,13 @@ export default function Gallery() {
       src: "https://www.instagram.com/reel/DODgrsZEenb/",
       alt: "Instagram Reel 1",
       type: "video",
-      thumbnail: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755579069/Serenity_new_Gerbang_zo5qgb.jpg",
+      thumbnail: "/gallery/gallery.avif",
     },
     {
       src: "https://www.tiktok.com/@sapphiregrahaofficial/video/7483826473565146375/",
       alt: "TikTok Reel 1",
       type: "video",
-      thumbnail: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755579069/Serenity_new_Gerbang_zo5qgb.jpg",
+      thumbnail: "/gallery/gallery.avif",
     },
 
   ]

@@ -18,13 +18,13 @@ export default function Testimonials() {
         {
             id: 1,
             name: "Alfalaqi",
-            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764488271/gambar-3_imbunn.avif",
+            image: "/testimoni/testimoni1.avif",
             text: "Lokasinya strategis tapi tetap tenang. Desain rumahnya modern dan bikin betah. Dari pusat kota deket pol.",
         },
         {
             id: 2,
             name: "Greeenid",
-            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764488270/gambar-9_qryd1j.avif",
+            image: "/testimoni/testimoni10.avif",
             text: "Perumahan dengan gaya hunian mezzanine di Purwokerto. Lokasinya super-strategis. Terbaikkk!",
         },
         

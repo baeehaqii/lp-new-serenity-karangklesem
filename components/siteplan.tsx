@@ -18,7 +18,7 @@ export default function SitePlan() {
 
           <div className="siteplan-image-wrapper">
             <Image
-              src="https://res.cloudinary.com/dqobwse9q/image/upload/upload/w_1000,h_700,c_fill,f_auto,q_auto:eco/v1755580136/siteplane_serenity_pwt_nwu8tl.png",
+              src="/siteplan/siteplan.avif"
               alt="Site Plan Sapphire Sapphire Serenity Karangklesem"
               width={1200}
               height={800}
